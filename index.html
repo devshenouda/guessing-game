@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Guessing</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Guessing Game</h1>
+        <p>Guess a number between 1 and <span id="high-number">1000</span></p>
+        <div class="number-container">
+            <h1 id="text-bar">Is your number : <span id="number"></span> ?</h1>
+
+        </div>
+        <div class="buttons">
+            <button onclick="higher()">Higher</button>
+            <button  onclick="lower()">Lower</button>
+            <button  onclick="correct()">Correct</button>
+            <button  onclick="harder()">More Hard</button>
+            <button  onclick="restart()">Restart</button>
+            
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
